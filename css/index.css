@@ -1,0 +1,45 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  padding:0;
+  margin:0;
+}
+.masthead{
+  background-image: url("https://drscdn.500px.org/photo/261471967/q%3D80_m%3D2000/v2?sig=b37f571734d7d19a3a512308674152c83c0626e8c12b87bc6cb00636a88a835e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  font-family:fantasy;
+}
+#About{
+  background-color: #363636;
+}
+#about-carousel{
+  width: 75%;
+}
+#Events{
+  background-color:#eeeded;
+}
+#more-info{
+  background-color: #201c1c;
+}
+#info-nav{
+  border-radius: 5px;
+}
+#info-nav ul li a{
+  color: black;
+}
+#info-nav ul li a:hover{
+  color: white;
+  background-color: gray;
+}
+#min-web{
+  overflow: hidden;
+}
+#info-footer:hover{
+  color: red;
+  font-size: 1.4em;
+}

@@ -1,0 +1,29 @@
+.sportsinforight{
+  text-align: left;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 50px;
+}
+.sportsheaderright{
+  text-align: right;
+  font-family: fantasy;
+  padding-right: 50px;
+}
+.sportsheaderleft{
+  text-align: left;
+  font-family: fantasy;
+  padding-left: 50px;
+}
+.sportsinfoleft{
+    text-align: right;
+    font-family: courier;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right:50px;
+}
+.row{
+  height:300px;
+  border-top:2px solid grey;
+  border-bottom: 2px solid grey;
+}

@@ -1,0 +1,213 @@
+html{
+  scroll-behavior: smooth;
+}
+#quote {
+    background-repeat: repeat;
+    overflow: hidden;
+    position: relative;
+}
+.overlayText {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* This is just some CSS styling to make the video fill 100% of its div */
+.videoContainer {
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+}
+.videoContainer video {
+    min-width: 100%;
+    min-height: 100%;
+}
+.landingjumbotron{
+  height:25vh;
+}
+.landingdiv{
+  height:50vh;
+  padding-top: 50px;
+}
+@media (pointer: coarse) and (hover: none)  {
+  .landingdiv {
+    padding-bottom: 500px;
+  }
+}
+
+.itemheader {
+  padding-left: 50px;
+
+}
+
+.itemheadercontent
+{
+    font-family: fantasy;
+    font-size:27px;
+    text-align: center;
+}
+.infobutton{
+  font-size: 14px;
+  font-family: courier;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row{
+  height: 170px auto;
+}
+
+.infocontent{
+  font-family:courier;
+  font-size: 18px;
+  text-align: left;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.buttonrow{
+  padding-left: 50px;
+  text-align: left;
+}
+.sectionheader{
+  font-family: fantasy;
+  font-size:35px;
+  text-align: center;
+  height: auto;
+}
+#knowmoreaboutrunning{
+
+  background-color: lightgrey;
+}
+.knowmorecontent{
+  height:400px;
+}
+.knowmoretext{
+  background-color: white;
+  height:100px auto;
+}
+.fit-image{
+width: 100%;
+object-fit: cover;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+.locationinfo{
+  padding: 15px;
+  padding-top: 40px;
+  width: 75vh;
+}
+.locationtitle{
+  text-align: Left;
+  margin: 50px 0;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.locationtext{
+  text-align:left;
+  font-size: 18px;
+}
+.carousel-item img{
+  object-fit: cover;
+  height: 500px;
+}
+.locationtitle, .locationtext{
+  text-align: right;
+}
+
+.title-arch {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.project {
+width: 100%;
+height: 500px;
+background-image: url();
+background-size: cover;
+background-position: center;
+padding: 0 !important;
+float:left;
+}
+
+.project-2 {
+background-image: url();
+}
+
+.project-3 {
+background-image: url();
+}
+
+.project-4 {
+background-image: url();
+}
+
+.project-hover {
+width: 100%;
+height: 100%;
+color: #fff;
+opacity: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(186, 232, 2, 0.7);
+padding: 40% 30px !important;
+}
+
+.project-hover hr {
+height: 30px;
+width: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(255, 255, 255, 1);
+border: 0;
+}
+
+.project-hover a {
+color: rgba(255, 255, 255, 1);
+padding: 2px 22px;
+line-height: 40px;
+border: 2px solid rgba(255, 255, 255, 1);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+border-color: rgba(51, 51, 51, 1);
+color: rgba(51, 51, 51, 1);
+background-color: #FFF;
+}
+
+.project:hover .project-hover {
+opacity: 1;
+}
+
+.project:hover .project-hover hr {
+width: 100%;
+height: 5px;
+}
+#moreinfo{
+  padding-top: 200px;
+  position: initial;
+}

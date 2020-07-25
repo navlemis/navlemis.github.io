@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Golf">
+    <meta name="author" content="Dickson">
+
+    <link rel="shortcut icon" href="images\GolfIndex.png" type="image/x-icon" />
+    <title>GOLF</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/Dickson.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/81978a7522.js" crossorigin="anonymous"></script>
+
+    <!--w3 lib-->
+    <script src="vendor/w3.js"></script>
+</head>
+<body>
+    <div w3-include-HTML="header.html"></div>
+
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="images\Dickson\Header.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3">GOLF</h1>
+                    <p class="lead mb-0">Define your moment</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="section1">
+        <div class="row w-100 text-white text-center" id="badge">
+            <div class="col-md box">
+                <h2 class="count">7</h2>
+                <h3>LOCATION</h3>
+                <br>
+                <button type="button" name="Location" class="btn btn-light" id="location">MORE INFO</button>
+            </div>
+            <div class="col-md box">
+                <h2 class="count">16</h2>
+                <h3>NATIONAL GOLFERS</h3>
+                <br>
+                <button type="button" name="Golfers" class="btn btn-light" id="golfers">MORE INFO</button>
+            </div>
+            <div class="col-md box">
+                <h2 class="count">5</h2>
+                <h3>TYPES OF CLUBS</h3>
+                <br>
+                <button type="button" name="Clubs" class="btn btn-light" id="clubs">MORE INFO</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="section2" class="section">
+        <h2 class="title text-center section-header">LOCATION</h2>
+        <div class="container">
+            <hr>
+            <div class="row" id="location">
+                <div class="col-md-6">
+                    <img src="images\Dickson\MarinaBayGolfCouse.jpg" alt="golf course" class="introduction-img">
+                </div>
+                <div class="col-md-6">
+                    <div class="introduction-text">
+                        <h3 class="title introduction-title">Marina bay golf course</h3>
+                        <p class="text" id="MarinaBay">
+                            <button class="btn btn-light" type="button" data-toggle="modal" data-target="#map" data-whatever="@mdo" id="map1">80 Rhu Cross, Singapore 437437</button> <br><br>
+                            Designed by South African Phil Jacobs and open for play in 2006, Marina Bay Golf Course is Singapore’s only 18-hole public golf course and one of Asia's best public golf courses. <br>
+                            The 6493m, par 72 course is one of the few outstanding links-styled golf courses that you can find in Asia. Featuring 85 dramatic yet treacherous pot bunkers of varying sizes and depth, tremendous variety in the length of the holes and many undulations, the award-winning course provides many hours of challenges and enjoyment to golfers. Signature holes of the quality course include the 651-meter par-6 hole and the par-3 hole with island green design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="introduction-text">
+                        <h3 class="title text-right introduction-title">Mandai Executive Golf Course</h3>
+                        <p class="text text-right" id="Mandai">
+                            <button class="btn btn-light" type="button" data-toggle="modal" data-target="#map" data-whatever="@mdo" id="map2">Upper Seletar Reservoir Mandai Road Track 7 Singapore 779384</button> <br><br>
+                            The Mandai Executive Golf Course is a 9-hole, Par 29 public course situated next to Upper Seletar Reservoir. Opened in 1993, the friendly course features a nice variety of par 3s and par 4s that allows golfers to use most of the clubs in their bag and is perfect for beginners as well as experienced golfers who wish to sharpen their short game skills. There is also Driving Range with 40 bays and is a popular location for beginners.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images\Dickson\mandaiGolfCourse.jpg" class="introduction-img" alt="Mandai golf course">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images\Dickson\ChangiGolfCourse.jpg" class="introduction-img" alt="Changi golf course">
+                </div>
+                <div class="col-md-6">
+                    <div class="introduction-text">
+                        <h3 class="title introduction-title">Changi Golf Club</h3>
+                        <p class="text" id="Changi">
+                            <button class="btn btn-light" type="button" data-toggle="modal" data-target="#map" data-whatever="@mdo" id="map3">20 Netheravon Road Singapore 508505</button> <br><br>
+                            The construction of the military base at Changi commenced in 1926 and was occupied by the British Army and Commonwealth forces up to the surrender in WWII. When peace was declared in 1945 the British Army went back into the Changi site and stayed there until 1946 when the administration and running of the base was handed over to the Royal Air Force.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="introduction-text">
+                        <h3 class="title text-right introduction-title">Champion Golf Club</h3>
+                        <p class="text text-right" id="Champion">
+                            <button class="btn btn-light" type="button" data-toggle="modal" data-target="#map" data-whatever="@mdo" id="map4">Bukit Timah Champions Golf Course 60 Fairways Drive, Singapore 286966</button> <br><br>
+                            Built in 1988, Champions Public Golf Course, previously know as Green Fairways, comprises of 9 holes of challenging yet enjoyable golf. Our Par 34, 2,000 metres course promises to entertain all who play regardless of ability level. Situated in a prime location, near the Bukit Timah residential district and easily accessible via the PIE, our course provides all golfers a formidable round of golf, all year-round.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images\Dickson\champions.jpg" class="introduction-img" alt="Champion golf course">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images\Dickson\sembawangcountryclub.jpg" class="introduction-img" alt="sembawangcountryclub">
+                </div>
+                <div class="col-md-6">
+                    <div class="introduction-text">
+                        <h3 class="title introduction-title">sembawang country club</h3>
+                        <p class="text" id="sembawang">
+                            <button class="btn btn-light" type="button" data-toggle="modal" data-target="#map" data-whatever="@mdo" id="map5">249 Sembawang Road Singapore 758352</button> <br><br>
+                            The Club was founded in 1967 by the British Marines stationed at Dieppe Barracks. On 7 January the following year, Singapore's first Prime Minister Lee Kuan Yew was invited to officiate the opening of what he refers to in his memoirs as the 'HMS Simbang' golf course. At that time, it was just a 9-hole golf course. The course was located within a British air base which served as both a Royal Air Force station (RAF Sembawang) and a Royal Naval Air Station (HMS Simbang).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="introduction-text">
+                        <h3 class="title text-right introduction-title">Keppel Golf Club</h3>
+                        <p class="text text-right" id="Keppel">
+                            <button class="btn btn-light" type="button" data-toggle="modal" data-target="#map" data-whatever="@mdo" id="map6">10 Bukit Chermin Rd, Singapore 109918</button> <br><br>
+                            With our storied history and rich heritage, Keppel Club has not only been the destination for golf enthusiasts, but it is also a place for their families to call home. As Singapore’s oldest club in its original location, we have had four generations of members walk through our club’s doors experiencing what we have to offer
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images\Dickson\keppel.jpg" class="introduction-img" alt="keppel golf course">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="modal fade bd-example-modal-lg" id="map" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">location</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.401157315376!2d103.87021589147011!3d1.293059059852383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18547a193767%3A0xc2448b1f729923e!2sMarina%20Bay%20Golf%20Course!5e0!3m2!1sen!2ssg!4v1580331951662!5m2!1sen!2ssg" frameborder="0" style="border:0;" allowfullscreen="" id="iframe-map"></iframe>
+                    <p>ctrl + and scroll to zoom</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary block-md" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div class="container-fluid text-white " id="s3-content">
+            <div id="s3-quote">
+                <h2><i>"Consistency is key to winning"</i></h2>
+                <h4>- Abdul Hadi</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="section4" class="section text-white">
+        <h2 class="title text-center section-header">NATIONAL GOLFERS</h2>
+        <div class="container-fluid">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="p-2">
+                    <input type="image" name="Abdul Hai" src="images\Dickson\AbdulHadi.jpg" class="s4-img" onclick="ShowGolfer('Abdul')">
+                </div>
+                <div class="p-2">
+                    <input type="image" name="Mardan Marmat" src="images\Dickson\Mardan Marmat.jpg" class="s4-img" onclick="ShowGolfer('Mardan')">
+                </div>
+                <div class="p-2">
+                    <input type="image" name="Quincy Quek" src="images\Dickson\quincy-quek.jpg" class="s4-img" onclick="ShowGolfer('Quincy')">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section4-1">
+        <div class="container-fluid box mw-100">
+            <div class="row" id="Abdul">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="media">
+                        <img src="images\Dickson\AbdulHadi.jpg" alt="Abdul hadi" class="mr-3 s41-img">
+                        <div class="media-body">
+                            <h5 class="media-body">Abdul hadi</h5>
+                            <p><b>Age:</b> 25</p>
+                            <p>
+                                <b>introduction: </b> <br>
+                                Singapore golfer Abdul Hadi, who turned professional less than five months ago, came through a 27-hole day to earn the reward of a full card and eligibility for all 14 PGA Tour Series-China events this season.
+
+                                At the series' first global qualifying event, which was weather-delayed, an even-par 70 in the final round yesterday was enough for a two-stroke win over American Max McGreevy at the 6,615-yard Foison Golf Club's Dye Course in Guangzhou.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row" id="Mardan">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="media">
+                        <img src="images\Dickson\Mardan Marmat.jpg" alt="Mardan Marmat" class="mr-3 s41-img">
+                        <div class="media-body">
+                            <h5 class="media-body">Mardan Marmat</h5>
+                            <p><b>Age:</b> 52</p>
+                            <p>
+                                <b>introduction: </b> <br>
+                                Mamat was born in Singapore. He turned professional in 1994.
+
+                                Mamat plays on the Asian Tour, where he won for the first time at the 2004 Royal Challenge Indian Open.[1] In 2006 he won the OSIM Singapore Masters, which was co-sanctioned by the Asian Tour and the European Tour. This made him the first player from Singapore to win a European Tour event, and earned him a two-year exemption into the European Tour.[2]
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row" id="Quincy">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="media">
+                        <img src="images\Dickson\quincy-quek.jpg" alt="Quincy Queck" class="mr-3 s41-img">
+                        <div class="media-body">
+                            <h5 class="media-body">Quincy Queck</h5>
+                            <p><b>Age:</b> 32</p>
+                            <p>
+                                <b>introduction: </b> <br>
+                                Quincy Quek has endured a tumultuous last few years that have been riddled with missed chances, but five years and 38 starts later, the 32-year-old's patience was rewarded when he clinched his first tour title in the Haikou Classic at Mission Hills Haikou yesterday.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="section5">
+        <div class="container box">
+            <h2 class="title text-center section-header">QUIZ ON GOLF CLUBS</h2>
+            <form method="get" id="Dickson-Quiz" onsubmit="quizValidation()">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="user-info-name">Name:</label>
+                        <input type="text" name="user-name" id="user-name" placeholder="Enter name here..." class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="user-info-name">Email:</label>
+                        <input type="email" name="user-email" id="user-email" placeholder="Enter email here..." class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="question1">Q1) What are the different types of clubs[multiple answer]?</label><br>
+                        <input type="checkbox" name="clubs" value="clubs woods"> Woods <br>
+                        <input type="checkbox" name="clubs" value="iron"> Iron <br>
+                        <input type="checkbox" name="clubs" value="wedges"> Wedges <br>
+                        <input type="checkbox" name="clubs" value="driver"> Driver <br>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="question2">Q2) What is the maximum amount of clubs you can bring to a game?</label><br>
+                        <input type="radio" name="max-amount-clubs" value="2" class="Custom-control-input" required> 2 <br>
+                        <input type="radio" name="max-amount-clubs" value="14" class="Custom-control-input" required> 14 <br>
+                        <input type="radio" name="max-amount-clubs" value="11" class="Custom-control-input" required> 11 <br>
+                        <input type="radio" name="max-amount-clubs" value="nill" class="Custom-control-input" required> Non of the above <br>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="question3">Q3) How much is the most expensive club?</label> <br>
+                        <input type="number" name="expensive-clubs" id="expensive-clubs" min="0" max="181000" placeholder="$0" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="question4">Q4) Which is a golf club brand?</label>
+                        <select class="form-control" name="club-brand" id="question4" required>
+                            <option>Callaway</option>
+                            <option>Aviana Boyd</option>
+                            <option>Jadon Bates</option>
+                            <option>Angelika Foley</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <input type="submit" name="submit" value="Submit" class="btn btn-secondary">
+                        <input type="reset" name="reset" value="reset" class="btn btn-secondary">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="section5-1" class="section">
+        <div class="container text-center">
+            <h1 class="section-header">Congratulations <span id="name"></span> you got <span id="marks"></span>/6!</h1>
+            <table class="table table-bordered table-sm">
+                <tr class="bg-dark text-white">
+                    <th scope="col">Questions No</th>
+                    <th scope="col">Answers</th>
+                    <th scope="col">Correct</th>
+                </tr>
+                <tr>
+                    <th scope="row">Question 1:</th>
+                    <td>Woods, Iron, Wedges</td>
+                    <td id="q1-c">Incorrect</td>
+                </tr>
+                <tr>
+                    <th scope="row">Question 2:</th>
+                    <td>14 Clubs</td>
+                    <td id="q2-c">Incorrect</td>
+                </tr>
+                <tr>
+                    <th scope="row">Question 3</th>
+                    <td>$181000</td>
+                    <td id="q3-c">Incorrect</td>
+                </tr>
+                <tr>
+                    <th scope="row">Question 4</th>
+                    <td>Callaway</td>
+                    <td id="q4-c">Incorrect</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <div w3-include-HTML="footer.html"></div>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js\Dickson.js">
+    </script>
+    <script>
+        w3.includeHTML();
+    </script>
+</body>
+</html>
